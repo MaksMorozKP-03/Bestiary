@@ -4,15 +4,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PasswordComponent } from './password-component/password-component.component';
 import { PasswordStrengthComponent } from './password-strength/password-strength.component';
+import { RoutingModule } from './routing/routing.module';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PasswordComponent,
-    PasswordStrengthComponent
+    PasswordStrengthComponent,
+    HomeComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RoutingModule,
+    HeaderComponent,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
