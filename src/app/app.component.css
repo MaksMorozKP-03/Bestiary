@@ -1,0 +1,9 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 10%;
+}
+.container {
+  position: fixed;
+  top: 10%;
+}
