@@ -7,6 +7,7 @@ import { PasswordStrengthComponent } from './password-strength/password-strength
 import { RoutingModule } from './routing/routing.module';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { SingleMonsterComponent } from './single-monster/single-monster.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HeaderComponent } from './header/header.component';
     PasswordComponent,
     PasswordStrengthComponent,
     HomeComponent,
+    SingleMonsterComponent,
     
   ],
   imports: [
