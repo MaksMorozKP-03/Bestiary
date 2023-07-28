@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { PasswordComponent } from './password-component/password-component.component';
-import { PasswordStrengthComponent } from './password-strength/password-strength.component';
+import { PasswordComponent } from './components/password-component/password-component.component';
+import { PasswordStrengthComponent } from './components/password-strength/password-strength.component';
 import { RoutingModule } from './routing/routing.module';
-import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
-import { SingleMonsterComponent } from './single-monster/single-monster.component';
+import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SingleMonsterComponent } from './components/single-monster/single-monster.component';
 
 @NgModule({
   declarations: [
@@ -16,15 +16,9 @@ import { SingleMonsterComponent } from './single-monster/single-monster.componen
     PasswordStrengthComponent,
     HomeComponent,
     SingleMonsterComponent,
-    
   ],
-  imports: [
-    BrowserModule,
-    RoutingModule,
-    HeaderComponent,
-    
-  ],
+  imports: [BrowserModule, RoutingModule, HeaderComponent],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
