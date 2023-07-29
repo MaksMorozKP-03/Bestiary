@@ -6,7 +6,7 @@ import { PasswordComponent } from './components/password-component/password-comp
 import { PasswordStrengthComponent } from './components/password-strength/password-strength.component';
 import { RoutingModule } from './routing/routing.module';
 import { HomeComponent } from './components/home/home.component';
-import { HeaderComponent } from './components/header/header.component';
+import { HeaderComponent } from './header/header.component';
 import { SingleMonsterComponent } from './components/single-monster/single-monster.component';
 
 @NgModule({

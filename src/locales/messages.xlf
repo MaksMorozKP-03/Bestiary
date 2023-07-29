@@ -5,78 +5,85 @@
       <trans-unit id="5164393925919873687" datatype="html">
         <source>Above</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4930506384627295710" datatype="html">
         <source>Settings</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3367001123221122367" datatype="html">
         <source>works!</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6865009229971482891" datatype="html">
         <source>Password:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/password-component/password-component.component.html</context>
+          <context context-type="sourcefile">src/app/components/password-component/password-component.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2807778711266350339" datatype="html">
         <source>8 or more: letters, symbols and numbers</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/password-component/password-component.component.html</context>
+          <context context-type="sourcefile">src/app/components/password-component/password-component.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8338494318849187170" datatype="html">
         <source>letters</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/password-strength/password-strength.component.ts</context>
+          <context context-type="sourcefile">src/app/components/password-strength/password-strength.component.ts</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3810098177079283625" datatype="html">
         <source>numbers</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/password-strength/password-strength.component.ts</context>
+          <context context-type="sourcefile">src/app/components/password-strength/password-strength.component.ts</context>
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4771586209441366896" datatype="html">
         <source>symbols</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/password-strength/password-strength.component.ts</context>
+          <context context-type="sourcefile">src/app/components/password-strength/password-strength.component.ts</context>
           <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5323996583470259973" datatype="html">
         <source>Password must contain: <x id="PH" equiv-text="this.missingParts"/></source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/password-strength/password-strength.component.ts</context>
+          <context context-type="sourcefile">src/app/components/password-strength/password-strength.component.ts</context>
           <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6029099086467611990" datatype="html">
         <source>(8 or more)</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/password-strength/password-strength.component.ts</context>
+          <context context-type="sourcefile">src/app/components/password-strength/password-strength.component.ts</context>
           <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="117986938185602810" datatype="html">
+        <source>monster photo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/single-monster/single-monster.component.html</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
     </body>
