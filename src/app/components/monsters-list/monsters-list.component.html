@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="input-explanation">Filter by keywords</div>
+  <!-- <mat-form-field class="search-input" appearance="outline">
+      <mat-icon matPrefix id="icon">search</mat-icon>
+      <input matInput type="search" (change)="filterArticles($event)" />
+    </mat-form-field> -->
+
+  <div class="results-label">Results:</div>
+  <hr align="left" />
+  <div class="articles-container">
+    <div class="card" *ngFor="let article of []">
+      <img src="../../" alt="article image" />
+      <div class="card-content">
+        <div class="date-label">19.04.2003</div>
+        <h3></h3>
+        <p></p>
+        <button class="home-nav">Read more</button>
+      </div>
+    </div>
+  </div>
+</div>

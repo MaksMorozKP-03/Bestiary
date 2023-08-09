@@ -10,7 +10,7 @@ import { PasswordState } from 'src/shared/constants';
 @Component({
   selector: 'password-strength-component',
   templateUrl: './password-strength.component.html',
-  styleUrls: ['./password-strength.component.css'],
+  styleUrls: ['./password-strength.component.scss'],
 })
 export class PasswordStrengthComponent implements OnChanges {
   @Input() password: string = '';
